@@ -98,7 +98,7 @@ workflows:
       - "api-26"
       - "api-27":
           requires:
-            - "api-28"
+            - "api-26"
       - "api-28":
           requires:
-            - "api-27"
+            - "api-26"
