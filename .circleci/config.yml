@@ -10,6 +10,7 @@ jobs:
       TERM: dumb
     steps:
       - checkout
+      - run: cat /proc/cpuinfo
       - run:
           name: Download Dependencies
           command: ./gradlew dependencies
